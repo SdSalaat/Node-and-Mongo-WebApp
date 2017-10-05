@@ -1,0 +1,60 @@
+<div class="panel panel-default" >
+    <div class="panel-heading">
+        <h3 class="panel-title">Add Book</h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-12">
+                <form ng-submit="vm.addBook()">
+                    <div class="form-group">
+                        <label>Title</label>
+                        <input type="text" ng-model="vm.data.title" class="form-control" placeholder="Enter Book Title...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="genre">Select genre</label>
+                        <select name="genre" ng-model="vm.data.genre" id="genre" class="form-control">
+                            <option value="suspense">Suspense</option>
+                            <option value="romance">Romance</option>
+                            <option value="action">Action</option>
+                            <option value="adventure">Adventure</option>
+                            <option value="biography">biography</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Author</label>
+                        <input type="text" ng-model="vm.data.author" class="form-control" placeholder="Enter Book Author...">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Publisher</label>
+                        <input type="text" ng-model="vm.data.publisher" class="form-control" placeholder="Enter Book Publisher...">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Pages</label>
+                        <input type="text" ng-model="vm.data.pages" class="form-control" placeholder="Enter Book Pages...">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea class="form-control" ng-model="vm.data.description" placeholder="Enter Book Description..." rows="5"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Image URL</label>
+                        <input type="text" ng-model="vm.data.image_url" class="form-control" placeholder="Enter Book Image Link...">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Buy URL</label>
+                        <input type="text" ng-model="vm.data.buy_url" class="form-control" placeholder="Enter Book Buy Link...">
+                    </div>
+
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
