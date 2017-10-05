@@ -11,6 +11,9 @@
     "body-parser": "*",
     "mongoose": "*"
   },
+  "engines": {
+    "node": "6.11.3"
+  },
   "author": "",
   "license": "ISC"
 }
