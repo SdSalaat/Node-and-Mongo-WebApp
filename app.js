@@ -15,7 +15,7 @@ var Genre = require('./models/genres.model');
 var Book = require('./models/book.model');
 
 // Connect to Mongoose...
-mongoose.connect("mongodb://localhost/bookstore");
+mongoose.connect("mongodb://admin:admin@ds113785.mlab.com:13785/bookstore");
 var db = mongoose.connection;
 
 app.get('/', function (req, res) {
