@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86571561-4354-4179-bec3-9400373d93d3" name="Default" comment="" />
+    <list default="true" id="86571561-4354-4179-bec3-9400373d93d3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,8 +37,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="141" column="3" lean-forward="false" selection-start-line="141" selection-start-column="3" selection-end-line="141" selection-end-column="3" />
+            <state relative-caret-position="277">
+              <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -195,12 +198,12 @@
       <workItem from="1507203794022" duration="72000" />
       <workItem from="1507204005247" duration="647000" />
       <workItem from="1507209149969" duration="201000" />
-      <workItem from="1507470474948" duration="1251000" />
+      <workItem from="1507470474948" duration="1550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2171000" />
+    <option name="totallyTimeSpent" value="2470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="24" width="1323" height="744" extended-state="6" />
@@ -315,10 +318,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.11.3/core-modules/net.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1419" column="0" lean-forward="false" selection-start-line="1419" selection-start-column="0" selection-end-line="1419" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-globals-stub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="137" column="2" lean-forward="false" selection-start-line="137" selection-start-column="2" selection-end-line="137" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="141" column="3" lean-forward="false" selection-start-line="141" selection-start-column="3" selection-end-line="141" selection-end-column="3" />
+        <state relative-caret-position="277">
+          <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="4" selection-end-line="140" selection-end-column="56" />
           <folding />
         </state>
       </provider>
