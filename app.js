@@ -85,7 +85,7 @@ app.post('/api/books', function (req, res) {
     });
 });
 
-app.post('/api/books', function (req, res) {
+app.get('/api/books', function (req, res) {
     var book = req.body;
     Book.addBook(book, function (err, book) {
         if(err){
