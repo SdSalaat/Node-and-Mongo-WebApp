@@ -74,7 +74,7 @@ app.delete('/api/genres/:_id', function (req, res) {
 
 /* POST or GET For Books */
 
-app.post('/api/books', function (req, res) {
+app.get('/api/books', function (req, res) {
     Book.getBooks(function (err, books) {
         if(err){
             throw(err);
@@ -85,7 +85,7 @@ app.post('/api/books', function (req, res) {
     });
 });
 
-app.get('/api/books', function (req, res) {
+app.post('/api/books', function (req, res) {
     var book = req.body;
     Book.addBook(book, function (err, book) {
         if(err){
