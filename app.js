@@ -74,7 +74,7 @@ app.delete('/api/genres/:_id', function (req, res) {
 
 /* POST or GET For Books */
 
-app.get('/api/books', function (req, res) {
+app.post('/api/books', function (req, res) {
     Book.getBooks(function (err, books) {
         if(err){
             throw(err);
@@ -134,7 +134,7 @@ app.delete('/api/books/:_id', function (req, res) {
 });
 
 /*
-app.listen(3000);
-console.log("Listening on port 3000...");*/
+ app.listen(3000);
+ console.log("Listening on port 3000...");*/
 
 app.listen(process.env.PORT || 3000, function(){});
